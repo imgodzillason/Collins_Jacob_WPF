@@ -5,8 +5,6 @@ Expressions
 11/5/2014
  */
 
-/*alert ("test");*/
-
 //Create js file that will tell us number of words and images per web page on web site
 
 //Ask the user their name
