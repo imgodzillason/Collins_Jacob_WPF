@@ -25,9 +25,9 @@ var numberOfImages = prompt("How many images does your website require?");
 var numberOfPages = prompt("How many pages does your website require?");
 
 //Console.log out the response
-console.log(numberOfWords);
-console.log(numberOfImages);
-console.log(numberOfPages);
+console.log("Number of words input equals " +numberOfWords);
+console.log("Number of images input equals " +numberOfImages);
+console.log("Number of pages input equals " +numberOfPages);
 
 //Number of words and images divided by number of pages
 
@@ -36,4 +36,7 @@ var imagesPerPage = numberOfImages / numberOfPages;
 
 //ALERT user of number of words and images per page
 
-alert (name+ ", your website will require "+wordsPerPage+ "words per page and "+imagesPerPage+ " per page for your website.");
+alert (name+ ", your website will require "+wordsPerPage+ " words per page and "+imagesPerPage+ " images per page.");
+//Console.log out the numbers for words and images
+console.log(wordsPerPage);
+console.log (imagesPerPage);
