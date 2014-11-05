@@ -29,6 +29,11 @@ console.log(numberOfWords);
 console.log(numberOfImages);
 console.log(numberOfPages);
 
-//Number of words and divide by number of pages
+//Number of words and images divided by number of pages
 
-//
+var wordsPerPage = numberOfWords / numberOfPages;
+var imagesPerPage = numberOfImages / numberOfPages;
+
+//ALERT user of number of words and images per page
+
+alert (name+ ", your website will require "+wordsPerPage+ "words per page and "+imagesPerPage+ " per page for your website.");
