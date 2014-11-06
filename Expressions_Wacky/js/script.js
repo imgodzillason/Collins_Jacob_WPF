@@ -46,4 +46,4 @@ var hoursOfShow = ((lengthOfShow * numberOfEpisodes) * numberOfSeasons) / 60;
 
 //console.log output for minutes and hours of show
 console.log ("There are "+minutesOfShow+ " minutes of "+nameOfShow+" available to watch.");
-console.log ("There are "+hoursOfShow+ " hours of" +nameOfShow+ "available to watch.");
+console.log ("There are "+hoursOfShow+ " hours of" +nameOfShow+ " available to watch.");
