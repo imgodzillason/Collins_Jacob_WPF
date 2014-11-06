@@ -47,7 +47,21 @@ var roundedSlicesPerPerson = Math.round(slicesPerPerson);
 var totalSlices = slicesPerPizza * pizzasOrdered
 
 //Determine how many pieces Sparky gets by subtracting totalSlices by roundedSlicesPerPerson
-var sparkysPizza = totalSlices - roundedSlicesPerPerson
+var sparkysPizza = totalSlices - (roundedSlicesPerPerson *peopleAtParty);
 
 //print output for number of slices Sparky gets
 console.log ("Sparky got " +sparkysPizza+" slices of pizza.");
+
+//Alert user to change of questions
+alert("Now we're going to find out how much you spend on groceries!");
+
+//Average Shopping Bill
+//define array for five weeks of grocery shopping
+var groceryTotals = ["Week One", "Week Two", "Week Three", "Week Four","Week Five"];
+
+//defining value for groceries per week
+groceryTotals [0] = prompt("How much did you spend on groceries the first week?");
+groceryTotals [1] = prompt("How much did you spend on groceries the second week?");
+groceryTotals [2] = prompt("How much did you spend on groceries the third week?");
+groceryTotals [3] = prompt("How much did you spend on groceries the fourth week?");
+groceryTotals [4] = prompt("How much did you spend on groceries the fifth week?");
