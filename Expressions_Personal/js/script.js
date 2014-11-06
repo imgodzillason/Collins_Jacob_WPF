@@ -75,7 +75,7 @@ console.log(name+" has a coupon for $" +couponAmount+".");
 ///New number of hours based on coupon amount
 var newXboxHours = (gamingConsoles [0] - couponAmount) / payPerHour;
 var newPlaystationHours = (gamingConsoles [1] - couponAmount) / payPerHour;
-var newWiiUHours = (gamingConsoles [2] = couponAmount) / payPerHour;
+var newWiiUHours = (gamingConsoles [2] - couponAmount) / payPerHour;
 
 //console.log output for new number of hours based on coupon amount
 console.log( name+ " now needs to work " +newXboxHours+" hours to earn an Xbox One with a coupon.");
