@@ -18,7 +18,7 @@ var sparkyDogYears = sparkyAge * 7
 //print output for Sparky's age in dog years
 console.log("Sparky is " +sparkyAge+" human years old, which is "+sparkyDogYears+" in dog years.");
 
-//Slice of Pie part 1
+//Slice of Pie part I
 //ALERT user to change of questions
 alert("We will now discuss a pizza party!");
 
@@ -37,3 +37,17 @@ var slicesPerPerson = (slicesPerPizza * pizzasOrdered) / peopleAtParty;
 
 //print output for number of slices each person gets
 console.log("Each person ate "+slicesPerPerson+" slices of pizza at the party.");
+
+//Slice of Pie part II
+
+//round slices per person to nearest whole number
+var roundedSlicesPerPerson = Math.round(slicesPerPerson);
+
+//total number of slices
+var totalSlices = slicesPerPizza * pizzasOrdered
+
+//Determine how many pieces Sparky gets by subtracting totalSlices by roundedSlicesPerPerson
+var sparkysPizza = totalSlices - roundedSlicesPerPerson
+
+//print output for number of slices Sparky gets
+console.log ("Sparky got " +sparkysPizza+" slices of pizza.");
