@@ -12,3 +12,6 @@ var name = prompt("What is your name?");
 
 //ALERT user
 alert("Hello "+name+", we're going to determine the number of hours you will have to work to purchase different gaming consoles.");
+
+//console.log output
+console.log(name+ " is the name of the user.");
