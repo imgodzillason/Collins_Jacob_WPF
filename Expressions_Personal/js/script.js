@@ -41,12 +41,6 @@ console.log(name+ "needs to work "+xboxOneHours+" hours to earn enough for an Xb
 console.log(name+ "needs to work "+playstationHours+" hours to earn enough for a Playstation 4.");
 console.log(name+ "needs to work "+wiiUHours+" hours to earn enough for a Wii U.");
 
-//Ask user how many days a week they work
-var daysWorked = prompt("How many days a week do you work?");
-
-//console.log output for days per week worked
-console.log(name+ " works " +daysWorked+ " days per week.");
-
 //Ask user how many hours per day they work
 var hoursPerDay = prompt("How many hours per day do you work?");
 
