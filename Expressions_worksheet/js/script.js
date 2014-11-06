@@ -19,6 +19,8 @@ var sparkyDogYears = sparkyAge * 7
 console.log("Sparky is " +sparkyAge+" human years old, which is "+sparkyDogYears+" in dog years.");
 
 //Slice of Pie part 1
+//ALERT user to change of questions
+alert("We will now discuss a pizza party!");
 
 //Slices of pizza input by user
 var slicesPerPizza = prompt("How many slices of pizza are there per pizza?");
