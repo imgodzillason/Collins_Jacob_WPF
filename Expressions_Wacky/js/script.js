@@ -27,3 +27,9 @@ var numberOfSeasons = prompt("How many seasons are there in "+nameOfShow+"?");
 
 //console.log for number of seasons
 console.log("There are "+numberOfSeasons+" seasons in "+nameOfShow+".");
+
+//Ask user how long each episode is
+var lengthOfShow = prompt("So, in minutes, about how long is each episode"+name+"?");
+
+//console.log output for length of show
+console.log ("Each episode of " +nameOfShow+ " is"+lengthOfShow+" minutes long")
