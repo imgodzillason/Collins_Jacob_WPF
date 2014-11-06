@@ -33,6 +33,6 @@ var imagesPerPage = numberOfImages / numberOfPages;
 //ALERT user of number of words and images per page
 alert (name+ ", your website will require "+wordsPerPage+ " words per page and "+imagesPerPage+ " images per page.");
 
-//Console.log out the numbers for words and images
+//Console.log output for the numbers for words and images
 console.log("Number of words per page equals " +wordsPerPage);
 console.log ("Number of images per page quals" +imagesPerPage);
