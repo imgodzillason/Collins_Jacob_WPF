@@ -69,3 +69,14 @@ var averageGroceryBill = fiveWeeksOfGroceries / 5;
 
 //Print output for five weeks of groceries and average
 console.log("You have spent a total of $"+fiveWeeksOfGroceries+" on groceries over 5 weeks. That is an average of $"+averageGroceryBill+" per week.");
+
+//Discounts
+
+//ALERT user of question changes
+alert("We'll now determine how much of a discount you'll receive!");
+
+//obtain original price, discount percentage, item name, and sales tax percentage from user
+var itemName = prompt("What is the name of the item?");
+var originalPrice = prompt("What is the original price of "+itemName+"?");
+var discountPercentage = prompt ("What is the discount percentage?");
+var salesTax = prompt ("What is the sales tax in your area?");
