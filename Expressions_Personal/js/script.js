@@ -35,3 +35,9 @@ console.log(name+ " makes $"+payPerHour+ " per hour");
 var xboxOneHours = gamingConsoles [0] / payPerHour;
 var playstationHours = gamingConsoles [1] / payPerHour;
 var wiiUHours = gamingConsoles [2] / payPerHour;
+
+//Ask user how many days a week they work
+var daysWorked = prompt("How many days a week do you work?");
+
+//Ask user how many hours per day they work
+var hoursPerDay = prompt("How many hours per day do you work?");
