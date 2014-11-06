@@ -11,7 +11,7 @@
 var name = prompt("What is your name?");
 
 //ALERT user
-alert("Hello "+name+", we're going to determine the number of hours you will have to work to purchase different gaming consoles.");
+alert("Hello "+name+", we're going to determine the number of hours you will have to work to purchase different gaming consoles. If you have a coupon, we will ask for it at the end.");
 
 //console.log output
 console.log(name+ " is the name of the user.");
@@ -61,3 +61,9 @@ console.log(name+ " needs to work " +numberOfDaysXbox+ " days to earn an Xbox On
 console.log(name+ " needs to work " +numberOfDaysPlaystation+ " days to earn a Playstation 4.");
 console.log (name+ "needs to work " +numberOfDaysWiiU+ " days to earn a Wii U.");
 
+//Ask user how amount of coupon
+
+var couponAmount = prompt("How much does your coupon reduce the cost of the console? If you do not have one, enter 0.");
+
+//console.log output for couponAmount
+console.log(name+" has a coupon for $" +couponAmount+".");
