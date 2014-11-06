@@ -40,10 +40,10 @@ var wiiUHours = gamingConsoles [2] / payPerHour;
 var daysWorked = prompt("How many days a week do you work?");
 
 //console.log output for days per week worked
-console.log(name+ " works" +daysWorked+ " days per week.");
+console.log(name+ " works " +daysWorked+ " days per week.");
 
 //Ask user how many hours per day they work
 var hoursPerDay = prompt("How many hours per day do you work?");
 
 //console.log for hours per day worked
-console.log(name+ " works" +hoursPerDay+ " hours per day.");
+console.log(name+ " works " +hoursPerDay+ " hours per day.");
