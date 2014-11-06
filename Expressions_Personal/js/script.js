@@ -5,8 +5,6 @@
  11/5/2014
  */
 
-/*alert("test");*/
-
 //Ask user their name
 var name = prompt("What is your name?");
 
@@ -29,7 +27,7 @@ gamingConsoles [2] = 299.99;
 var payPerHour = prompt("How much do you make per hour?");
 
 //console.log output for payPerHour
-console.log(name+ " makes $"+payPerHour+ " per hour");
+console.log(name+ " makes $"+payPerHour+ " per hour.");
 
 //Determining hours
 var xboxOneHours = gamingConsoles [0] / payPerHour;
@@ -43,7 +41,6 @@ console.log(name+ " needs to work "+wiiUHours+" hours to earn enough for a Wii U
 
 //ALERT user of number of hours
 alert(name+ ", you will need to work " +xboxOneHours+ " hours to earn enough for an Xbox One.  You will need to work " +playstationHours+ " hours to earn enough for a Playstation 4. You will need to work " +wiiUHours+ " hours to earn enough for a Wii U.");
-
 
 //Ask user how many hours per day they work
 var hoursPerDay = prompt("How many hours per day do you work?");
