@@ -39,3 +39,9 @@ var numberOfEpisodes = prompt("How many episodes are there per season, "+name+"?
 
 //console.log for number of episodes
 console.log ("There are "+numberOfEpisodes+" per season of" +nameOfShow+".");
+
+//Determine minutes and hours of show available
+var minutesOfShow = (lengthOfShow * numberOfEpisodes) * numberOfSeasons;
+var hoursOfShow = ((lengthOfShow * numberOfEpisodes) * numberOfSeasons) / 60;
+
+
