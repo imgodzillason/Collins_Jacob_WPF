@@ -15,3 +15,11 @@ alert("Hello "+name+", we're going to determine the number of hours you will hav
 
 //console.log output
 console.log(name+ " is the name of the user.");
+
+//Adding in arrays
+var gamingConsoles = ["Xbox One", "Playstation 4", "Wii U"];
+
+//adding values for gamingConsoles
+gamingConsoles [0] = 349.99;
+gamingConsoles [1] = 399.99;
+gamingConsoles [2] = 299.99;
