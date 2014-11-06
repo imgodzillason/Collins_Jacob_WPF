@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8023426" vertical-offset="427" max-vertical-offset="1170">
-              <caret line="65" column="231" selection-start-line="65" selection-start-column="231" selection-end-line="65" selection-end-column="231" />
+              <caret line="65" column="105" selection-start-line="65" selection-start-column="105" selection-end-line="65" selection-end-column="105" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -225,7 +225,7 @@
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8023426" vertical-offset="427" max-vertical-offset="1170">
-          <caret line="65" column="231" selection-start-line="65" selection-start-column="231" selection-end-line="65" selection-end-column="231" />
+          <caret line="65" column="105" selection-start-line="65" selection-start-column="105" selection-end-line="65" selection-end-column="105" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
