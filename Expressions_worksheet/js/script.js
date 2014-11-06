@@ -57,11 +57,15 @@ alert("Now we're going to find out how much you spend on groceries!");
 
 //Average Shopping Bill
 //define array for five weeks of grocery shopping
-var groceryTotals = ["Week One", "Week Two", "Week Three", "Week Four","Week Five"];
+var groceryTotals = [100, 250, 150, 145, 310]
 
-//defining value for groceries per week
-groceryTotals [0] = prompt("How much did you spend on groceries the first week?");
-groceryTotals [1] = prompt("How much did you spend on groceries the second week?");
-groceryTotals [2] = prompt("How much did you spend on groceries the third week?");
-groceryTotals [3] = prompt("How much did you spend on groceries the fourth week?");
-groceryTotals [4] = prompt("How much did you spend on groceries the fifth week?");
+//total amount spent on groceries
+
+var fiveWeeksOfGroceries = groceryTotals [0] + groceryTotals [1] + groceryTotals [2] + groceryTotals [3] + groceryTotals [4];
+
+//average spent per week
+
+var averageGroceryBill = fiveWeeksOfGroceries / 5;
+
+//Print output for five weeks of groceries and average
+console.log("You have spent a total of $"+fiveWeeksOfGroceries+" on groceries over 5 weeks. That is an average of $"+averageGroceryBill+" per week.");
