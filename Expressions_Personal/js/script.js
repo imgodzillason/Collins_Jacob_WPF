@@ -23,3 +23,10 @@ var gamingConsoles = ["Xbox One", "Playstation 4", "Wii U"];
 gamingConsoles [0] = 349.99;
 gamingConsoles [1] = 399.99;
 gamingConsoles [2] = 299.99;
+
+//Requesting information on hourly rate
+
+var payPerHour = prompt("How much do you make per hour?");
+
+//console.log output for payPerHour
+console.log(name+ " makes $"+payPerHour+ "per hour");
