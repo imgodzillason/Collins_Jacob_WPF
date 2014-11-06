@@ -29,10 +29,10 @@ var payPerHour = prompt("How much do you make per hour?");
 //console.log output for payPerHour
 console.log(name+ " makes $"+payPerHour+ " per hour.");
 
-//Determining hours
-var xboxOneHours = gamingConsoles [0] / payPerHour;
-var playstationHours = gamingConsoles [1] / payPerHour;
-var wiiUHours = gamingConsoles [2] / payPerHour;
+//Determining hours needed to work for each console
+var xboxOneHours = gamingConsoles [0] / payPerHour; // divide price of Xbox One and hourly pay
+var playstationHours = gamingConsoles [1] / payPerHour; // divide price of Playstation 4 and hourly pay
+var wiiUHours = gamingConsoles [2] / payPerHour; //divide price of Wii U and hourly pay
 
 //console.log output for number of hours needed to work
 console.log(name+ " needs to work "+xboxOneHours+" hours to earn enough for an Xbox One.");
@@ -49,9 +49,9 @@ var hoursPerDay = prompt("How many hours per day do you work?");
 console.log(name+ " works " +hoursPerDay+ " hours per day.");
 
 //Determining number of days needed to work
-var numberOfDaysXbox = xboxOneHours / hoursPerDay;
-var numberOfDaysPlaystation = playstationHours / hoursPerDay;
-var numberOfDaysWiiU = wiiUHours / hoursPerDay;
+var numberOfDaysXbox = xboxOneHours / hoursPerDay; //divide number of hours needed to work by hours user works per day to get number of days needed to work for Xbox One
+var numberOfDaysPlaystation = playstationHours / hoursPerDay; //divide number of hours needed to work by hours user works per day to get number of days needed to work for Playstation 4
+var numberOfDaysWiiU = wiiUHours / hoursPerDay; //divide number of hours needed to work by hours user works per day to get number of days needed to work for Wii U
 
 //console.log output for number of days needed based on hours
 console.log(name+ " needs to work " +numberOfDaysXbox+ " days to earn an Xbox One.");
@@ -70,14 +70,14 @@ var couponAmount = prompt("How much does your coupon reduce the cost of the cons
 console.log(name+" has a coupon for $" +couponAmount+".");
 
 ///New number of hours based on coupon amount
-var newXboxHours = (gamingConsoles [0] - couponAmount) / payPerHour;
-var newPlaystationHours = (gamingConsoles [1] - couponAmount) / payPerHour;
-var newWiiUHours = (gamingConsoles [2] - couponAmount) / payPerHour;
+var newXboxHours = (gamingConsoles [0] - couponAmount) / payPerHour; //update hours needed to work after subtracting coupon from Xbox One price
+var newPlaystationHours = (gamingConsoles [1] - couponAmount) / payPerHour; //update hours needed to work after subtracting coupon from Playstation 4 price
+var newWiiUHours = (gamingConsoles [2] - couponAmount) / payPerHour; //update hours needed to work after subtracting coupon from Wii U price
 
 //console.log output for new number of hours based on coupon amount
 console.log( name+ " now needs to work " +newXboxHours+" hours to earn an Xbox One with a coupon.");
 console.log (name+ " now needs to work " +newPlaystationHours+ " hours to earn a Playstation 4 with a coupon.");
 console.log (name+ " now needs to work " +newWiiUHours+ " hours to earn a Wii U with a coupon.");
 
-//ALERT for user on new number of hours
+//ALERT for user on new number of hours needed to work after coupon factored in
 alert(name+ ", you will now need to work " +newXboxHours+" hours to earn an Xbox One with a coupon. To earn a Playstation 4, you will need to work " +newPlaystationHours+ " hours. Lastly, you will need to work " +newWiiUHours+ " hours to earn a Wii U.");
