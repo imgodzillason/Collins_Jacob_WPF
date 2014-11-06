@@ -38,7 +38,7 @@ console.log ("Each episode of " +nameOfShow+ " is "+lengthOfShow+" minutes long"
 var numberOfEpisodes = prompt("How many episodes are there per season, "+name+"?");
 
 //console.log for number of episodes
-console.log ("There are "+numberOfEpisodes+" per season of" +nameOfShow+".");
+console.log ("There are "+numberOfEpisodes+" episodes per season of " +nameOfShow+".");
 
 //Determine minutes and hours of show available
 var minutesOfShow = (lengthOfShow * numberOfEpisodes) * numberOfSeasons;
@@ -46,13 +46,13 @@ var hoursOfShow = ((lengthOfShow * numberOfEpisodes) * numberOfSeasons) / 60;
 
 //console.log output for minutes and hours of show
 console.log ("There are "+minutesOfShow+ " minutes of "+nameOfShow+" available to watch.");
-console.log ("There are "+hoursOfShow+ " hours of" +nameOfShow+ " available to watch.");
+console.log ("There are "+hoursOfShow+ " hours of " +nameOfShow+ " available to watch.");
 
 //ALERT user to hours and minutes of show
 alert(name+", there are "+minutesOfShow+ " minutes, or "+hoursOfShow+" hours, of "+nameOfShow+". What are you waiting for? Get started!");
 
 //hummingbird randomness
-var hummingbirdFlap = 70 * minutesOfShow;
+var hummingbirdFlap = (60 * lengthOfShow) * 70;
 
 //ALERT user of random hummingbird fact
-alert("Before you go, " +name+"! Did you know a hummingbird flaps its wings up to 70 times a second!? That means by the time you've finished an episode, it will have potentially flapped its wings "+hummingbirdFlap+ " times! Isn't nature awesome!? Now go. Go sit and not do anything while you watch " +nameOfShow+". Don't feel guilty. You aren't a hummingbird!");
+alert("Before you go, " +name+"! Did you know a hummingbird flaps its wings up to 70 times a second!? That means by the time you've finished an episode, it will have potentially flapped its wings "+hummingbirdFlap+ " times! Isn't nature awesome!? Now go. Go sit and do nothing while you watch " +nameOfShow+". Don't feel guilty. You aren't a hummingbird!");
