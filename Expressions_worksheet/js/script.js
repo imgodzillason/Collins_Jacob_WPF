@@ -80,3 +80,11 @@ var itemName = prompt("What is the name of the item?");
 var originalPrice = prompt("What is the original price of "+itemName+"?");
 var discountPercentage = prompt ("What is the discount percentage?");
 var salesTax = prompt ("What is the sales tax in your area?");
+
+//Price of item after discount
+
+var afterDiscount =  (originalPrice) - (originalPrice * (discountPercentage/100));
+
+console.log(afterDiscount);
+//Price of item with tax
+var itemWithTax = (originalPrice * (salesTax/100)) + originalPrice;
