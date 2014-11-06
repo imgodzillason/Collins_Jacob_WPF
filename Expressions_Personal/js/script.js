@@ -29,4 +29,4 @@ gamingConsoles [2] = 299.99;
 var payPerHour = prompt("How much do you make per hour?");
 
 //console.log output for payPerHour
-console.log(name+ " makes $"+payPerHour+ "per hour");
+console.log(name+ " makes $"+payPerHour+ " per hour");
