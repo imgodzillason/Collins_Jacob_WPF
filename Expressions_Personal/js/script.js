@@ -59,7 +59,7 @@ var numberOfDaysWiiU = wiiUHours / hoursPerDay;
 //console.log output for number of days needed based on hours
 console.log(name+ " needs to work " +numberOfDaysXbox+ " days to earn an Xbox One.");
 console.log(name+ " needs to work " +numberOfDaysPlaystation+ " days to earn a Playstation 4.");
-console.log (name+ "needs to work " +numberOfDaysWiiU+ " days to earn a Wii U.");
+console.log (name+ " needs to work " +numberOfDaysWiiU+ " days to earn a Wii U.");
 
 //ALERT user for number of days
 
