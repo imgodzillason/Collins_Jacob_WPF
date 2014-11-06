@@ -47,4 +47,13 @@ var hoursPerDay = prompt("How many hours per day do you work?");
 //console.log for hours per day worked
 console.log(name+ " works " +hoursPerDay+ " hours per day.");
 
+//Determining number of days needed to work
+var numberOfDaysXbox = xboxOneHours / hoursPerDay;
+var numberOfDaysPlaystation = playstationHours / hoursPerDay;
+var numberOfDaysWiiU = wiiUHours / hoursPerDay;
+
+//console.log output for number of days needed based on hours
+console.log(name+ " needs to work " +numberOfDaysXbox+ " days to earn an Xbox One.");
+console.log(name+ " needs to work " +numberOfDaysPlaystation+ " days to earn a Playstation 4.");
+console.log (name+ "needs to work " +numberOfDaysWiiU+ " days to earn a Wii U.");
 
