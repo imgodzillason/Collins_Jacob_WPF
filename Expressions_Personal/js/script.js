@@ -37,13 +37,14 @@ var playstationHours = gamingConsoles [1] / payPerHour;
 var wiiUHours = gamingConsoles [2] / payPerHour;
 
 //console.log output for number of hours needed to work
-console.log(name+ "needs to work "+xboxOneHours+" hours to earn enough for an Xbox One.");
-console.log(name+ "needs to work "+playstationHours+" hours to earn enough for a Playstation 4.");
-console.log(name+ "needs to work "+wiiUHours+" hours to earn enough for a Wii U.");
+console.log(name+ " needs to work "+xboxOneHours+" hours to earn enough for an Xbox One.");
+console.log(name+ " needs to work "+playstationHours+" hours to earn enough for a Playstation 4.");
+console.log(name+ " needs to work "+wiiUHours+" hours to earn enough for a Wii U.");
 
 //Ask user how many hours per day they work
 var hoursPerDay = prompt("How many hours per day do you work?");
 
 //console.log for hours per day worked
 console.log(name+ " works " +hoursPerDay+ " hours per day.");
+
 
