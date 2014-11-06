@@ -30,3 +30,8 @@ var payPerHour = prompt("How much do you make per hour?");
 
 //console.log output for payPerHour
 console.log(name+ " makes $"+payPerHour+ " per hour");
+
+//Determining hours
+var xboxOneHours = gamingConsoles [0] / payPerHour;
+var playstationHours = gamingConsoles [1] / payPerHour;
+var wiiUHours = gamingConsoles [2] / payPerHour;
