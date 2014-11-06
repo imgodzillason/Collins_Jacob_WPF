@@ -81,3 +81,6 @@ var newWiiUHours = (gamingConsoles [2] - couponAmount) / payPerHour;
 console.log( name+ " now needs to work " +newXboxHours+" hours to earn an Xbox One with a coupon.");
 console.log (name+ " now needs to work " +newPlaystationHours+ " hours to earn a Playstation 4 with a coupon.");
 console.log (name+ " now needs to work " +newWiiUHours+ " hours to earn a Wii U with a coupon.");
+
+//ALERT for user on new number of hours
+alert(name+ ", you will now need to work " +newXboxHours+" hours to earn an Xbox One with a coupon. To earn a Playstation 4, you will need to work" +newPlaystationHours+ " hours. Lastly, you will need to work" +newWiiUHours+ " hours to earn a Wii U.");
