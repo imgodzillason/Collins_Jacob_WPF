@@ -49,10 +49,10 @@ console.log ("There are "+minutesOfShow+ " minutes of "+nameOfShow+" available t
 console.log ("There are "+hoursOfShow+ " hours of" +nameOfShow+ " available to watch.");
 
 //ALERT user to hours and minutes of show
-alert(name+", there are "+minutesOfShow+ " minutes, or "+hoursOfShow+" hours of "+nameOfShow+". What are you waiting for? Get started!");
+alert(name+", there are "+minutesOfShow+ " minutes, or "+hoursOfShow+" hours, of "+nameOfShow+". What are you waiting for? Get started!");
 
 //hummingbird randomness
-var hummingbirdFlap = 70 * minutesOfShow
+var hummingbirdFlap = 70 * minutesOfShow;
 
 //ALERT user of random hummingbird fact
-alert("Before you go, " +name+"! Did you know a hummingbird flaps its wings up to 70 times a second!? That means by the time you've finished an episode, it will have potentially flapped its wings "+hummingbirdFlap+ "! Isn't nature awesome!? Now go. Go sit and not do anything while you watch" +nameOfShow+". Don't feel guilty. You aren't a hummingbird!");
+alert("Before you go, " +name+"! Did you know a hummingbird flaps its wings up to 70 times a second!? That means by the time you've finished an episode, it will have potentially flapped its wings "+hummingbirdFlap+ " times! Isn't nature awesome!? Now go. Go sit and not do anything while you watch " +nameOfShow+". Don't feel guilty. You aren't a hummingbird!");
