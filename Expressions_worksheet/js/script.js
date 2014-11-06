@@ -85,6 +85,11 @@ var salesTax = prompt ("What is the sales tax in your area?");
 
 var afterDiscount =  (originalPrice) - (originalPrice * (discountPercentage/100));
 
-console.log(afterDiscount);
-//Price of item with tax
-var itemWithTax = (originalPrice * (salesTax/100)) + originalPrice;
+//Amount of tax on item
+var taxAmount = afterDiscount * (salesTax / 100);
+
+//Amount of item plus tax
+var itemWithTax = taxAmount + afterDiscount;
+
+//Print output for item with and without tax
+console.log("Your "+itemName+" was originally $"+originalPrice+", but after a "+discountPercentage+"% discount, it is now $"+afterDiscount+" without tax and $"+itemWithTax+" with tax.");
