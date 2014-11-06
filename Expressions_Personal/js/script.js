@@ -42,7 +42,7 @@ console.log(name+ " needs to work "+playstationHours+" hours to earn enough for 
 console.log(name+ " needs to work "+wiiUHours+" hours to earn enough for a Wii U.");
 
 //ALERT user of number of hours
-alert(+name ", you will need to work" +xboxOneHours+" hours to earn enough for an Xbox One. You will need to work" +playstationHours+ " hours to earn enough for a Playstation 4. You will need to work" +wiiUHours+ " hours to earn enough for a Wii U.");
+alert(name+ ", you will need to work" +xboxOneHours+ " hours to earn enough for an Xbox One.  You will need to work" +playstationHours+ " hours to earn enough for a Playstation 4. You will need to work" +wiiUHours+ " hours to earn enough for a Wii U.");
 
 
 //Ask user how many hours per day they work
