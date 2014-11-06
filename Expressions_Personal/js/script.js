@@ -71,3 +71,8 @@ var couponAmount = prompt("How much does your coupon reduce the cost of the cons
 
 //console.log output for couponAmount
 console.log(name+" has a coupon for $" +couponAmount+".");
+
+///New number of hours based on coupon amount
+var newXboxHours = gamingConsoles [0] - couponAmount / payPerHour;
+var newPlaystationHours = gamingConsoles [1] - couponAmount / payPerHour;
+var newWiiUHours = gamingConsoles [2] = couponAmount / payPerHour;
