@@ -4,7 +4,7 @@ WPF Section 01
 Activity: Conditionals Worksheet
 11/11/2014
  */
-
+/*
 //Group 1 Celsius to Fahrenheit Converter
 
 //obtain user info about temperature
@@ -51,4 +51,5 @@ if(grade <= 100 && grade >= 95){
 }else{
     //print to console
     console.log("You have a "+grade+ "%, which is an F in the class!");
-}
+}*/
+
