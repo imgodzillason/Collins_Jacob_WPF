@@ -13,7 +13,9 @@ var zombies = prompt("How many zombies are there?");
 
 //validate number entered
 if(zombies ==""){
+    //alert user they didn't enter information
     alert("You did not enter a number.");
+    //prompt user for answer
     prompt("How many zombies are there?");
 }else{
     //print to console
@@ -27,6 +29,7 @@ var guns = prompt("How many guns do you have with you?");
 if(guns ==""){
     //alert user they didn't enter information
     alert("You did not enter a number.");
+    //prompt user for answer
     prompt("How many guns do you have?");
 }else{
     //print to console
@@ -38,7 +41,9 @@ var bladedWeapons = prompt("How many bladed weapons do you have?");
 
 //validate number of bladed weapons
 if(bladedWeapons==""){
+    //alert user they didn't enter number
     alert("You did not enter a number.");
+    //prompt user for answer
     prompt("How many bladed weapons do you have?");
 }else{
     //print to console
