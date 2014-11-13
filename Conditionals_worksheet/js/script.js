@@ -4,7 +4,7 @@ WPF Section 01
 Activity: Conditionals Worksheet
 11/11/2014
  */
-/*
+
 //Group 1 Celsius to Fahrenheit Converter
 
 //obtain user info about temperature
@@ -51,5 +51,20 @@ if(grade <= 100 && grade >= 95){
 }else{
     //print to console
     console.log("You have a "+grade+ "%, which is an F in the class!");
-}*/
 
+//Group 3 Tire Pressure
+
+//obtain air pressure from tires
+var frontRightTire = prompt("What is the tire pressure of the front right tire?");
+var frontLeftTire = prompt("What is the tire pressure of the front left tire?");
+var backRightTire = prompt("What is the tire pressure of the back right tire?");
+var backLeftTire = prompt("What is the tire pressure of the back left tire?");
+
+//check for passing of maintenance standards
+if(frontRightTire === frontLeftTire || backRightTire === backLeftTire){
+    //print to console
+    console.log("The tires pass spec!");
+}else{
+    //print to console
+    console.log("Get your tires checked out!");
+}
