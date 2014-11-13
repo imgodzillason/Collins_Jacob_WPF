@@ -30,7 +30,7 @@ if(guns ==""){
     prompt("How many guns do you have?");
 }else{
     //print to console
-    console.log("You have "+guns+ "guns with you.");
+    console.log("You have "+guns+ " guns with you.");
 
 }
 
