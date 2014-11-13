@@ -15,8 +15,8 @@ if(breakfast == ""){
     prompt("How many calories did you have for breakfast?");
 }else{
     //print to console
-    console.log("You had "+breakfast+ " calories at breakfast.")
-    alert("We will now ask for your lunch calories.")
+    console.log("You had "+breakfast+ " calories at breakfast.");
+    alert("We will now ask for your lunch calories.");
 }
 
 //obtain values for caloric intake for lunch
@@ -26,22 +26,26 @@ var lunch = prompt("How many calories did you have for lunch?");
 if(lunch == ""){
     //alert user they forgot to input a number
     alert("You forgot to input a number.");
-    prompt("How many calories did you have for lunch?")
+    prompt("How many calories did you have for lunch?");
 }else{
     //print to console
     console.log("You had "+lunch+ " calories at lunch.");
     alert("We will now ask for your dinner calories.");
 }
 
-var dinner = prompt("How many calories did you have for dinner?");
-if (dinner =""){
+//obtain values for caloric intake at dinner
+var dinner= prompt("How many calories did you have at dinner?");
+
+//make sure values aren't empty
+if(dinner == ""){
     //alert user they forgot to input a number
     alert("You forgot to input a number.");
-    prompt("How many calories did you have for dinner.");
+    prompt("How many calories did you have at dinner?");
 }else{
     //print to console
     console.log("You had "+dinner+ " calories at dinner.");
 }
+
 /*
 //var for total number of calories for the day
 var totalCalories = (breakfast + lunch + dinner);
@@ -54,4 +58,8 @@ if (totalCalories < 1500){
     console.log("You had "+totalCalories+ " calories today. No dessert for you!");
 }
 */
-var totalCalories = ((breakfast+ lunch + dinner) <= 1500) ? "You had" +totalCalories+ "calories today. Have some dessert!" : "You had " +totalCalories+ "calories today. No dessert for you!";
+//create totalCalories var and parse variables into numbers
+var totalCalories = (+breakfast) + (+lunch) + (+dinner);
+
+//Add ternary result
+var dessert = ((totalCalories <= 1500) ? console.log("You had " +totalCalories+ " calories today. Have some dessert!") : console.log("You had " +totalCalories+ " calories today. No dessert for you!"));
