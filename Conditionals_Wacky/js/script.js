@@ -20,7 +20,6 @@ if(zombies ==""){
     console.log("There are "+zombies+ " around you!");
 }
 
-
 //capture number of weapons
 var guns = prompt("How many guns do you have with you?");
 
@@ -46,3 +45,14 @@ if(bladedWeapons ==""){
     console.log("You have " +bladedWeapons+ " bladed weapons with you.");
 }
 
+//Determine if user is indoor or outdoors
+var location = prompt("Are you indoors or outdoors?");
+
+//validate answer entered
+if(location ==""){
+    alert("You did not enter a number.");
+    prompt("re you indoors or outdoors?");
+}else{
+    //print to console
+    console.log("You are located "+location+ ".");
+}
