@@ -25,6 +25,7 @@ var guns = prompt("How many guns do you have with you?");
 
 //validate number entered
 if(guns ==""){
+    //alert user they didn't enter information
     alert("You did not enter a number.");
     prompt("How many guns do you have?");
 }else{
