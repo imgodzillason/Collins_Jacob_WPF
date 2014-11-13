@@ -50,9 +50,21 @@ var location = prompt("Are you indoors or outdoors?");
 
 //validate answer entered
 if(location ==""){
-    alert("You did not enter a number.");
+    alert("You did not enter an answer.");
     prompt("re you indoors or outdoors?");
 }else{
     //print to console
     console.log("You are located "+location+ ".");
+}
+
+//determine user's chances of survival
+if(zombies > 5 && location == "outdoors"){
+    //print to console
+    console.log("Fight for your life! Your chances are pretty slim though.");
+}else if(zombies > 5 && location == "indoors"){
+    //print to console
+    console.log("You have a better chance being indoors, but you need to get rid of them!")
+}else{
+    //print to console
+    console.log("Looking good, kid! We'll make a survivor of you yet!");
 }
