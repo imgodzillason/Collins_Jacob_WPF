@@ -39,4 +39,19 @@ var bladedWeapons = prompt("How many bladed weapons do you have?");
 if(bladedWeapons==""){
     alert("You did not enter a number.");
     prompt("How many bladed weapons do you have?");
+}else{
+    //print to console
+    console.log("You have " +bladedWeapons+ " bladed weapons with you.");
+}
+
+//set variable for total weapons
+var totalWeapons = (+guns) + (+bladedWeapons);
+
+//determine chances of survival
+if(zombies >= (totalWeapons / 2){
+    //print to console
+    console.log("Fight for your life! Your chances are slim if you don't get away!")
+}else {
+    //print to console
+    console.log("Looking good, kid! We'll make a survivor of you yet!");
 }
