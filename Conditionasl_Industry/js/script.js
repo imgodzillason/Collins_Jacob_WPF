@@ -28,16 +28,16 @@ if(numberOfEmployees == ""){
 }
 
 //number of hours per person
-var hoursPerEmployee = (+hoursNeeded) / (+numberOfEmployees);
+var hoursPerEmployee = Math.round((+hoursNeeded) / (+numberOfEmployees));
 
 //print to console
 console.log("Each employee needs to work " +hoursPerEmployee+ " hours to complete the project in a week.");
 
 //determine if we need to hire a temp to complete site
-if (hoursPerEmployee >= 40 && hoursNeeded >= 500){
+if (hoursPerEmployee >= 40 || hoursNeeded >= 1000){
     //print to console
-    console.log("Each employee will work "+hoursPerEmployee+ " this week. You should hire a temp to complete this on time.")
+    console.log("Each employee will work " +hoursPerEmployee+ " hours this week. You should consider hiring a temp to complete this on time.")
 }else{
     //print to console
-    console.log("Each employee will work " +hoursPerEmployee+ " this week. You do not need to hire a temp.")
+    console.log("Each employee will work " +hoursPerEmployee+ " hours this week. You do not need to hire a temp.")
 }
