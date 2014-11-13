@@ -5,22 +5,7 @@ Activity: Conditionals Worksheet
 11/11/2014
  */
 
-//set up var conversion for Celsius and Fahrenheit
-var celsius = (fahrenheit - 32) / (5/9);
-var fahrenheit = (celsius - 32) * (5/9);
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Group 1 Celsius to Fahrenheit Converter
 
 //obtain user info about temperature
 var temp = prompt("What is the temperature outside?");
@@ -34,4 +19,21 @@ if(tempMeasure === "C"){
 }
 if(tempMeasure === "F"){
     console.log("The temperature is "+((temp * (9/5)) +32)+ " degrees Fahrenheit");
+}
+
+//Group 2 Grade Letter Calculator
+
+//obtain percent of grade from user
+var grade = prompt("What grade did you receive? Please use whole numbers.");
+
+//convert percent to letter grade
+if(grade <= 100 && grade >= 95){
+    //print to console
+    console.log("You have a "+grade+"%, which is an A+ in the class!");
+} else if(grade <= 94 && grade >= 90){
+    //print to console
+    console.log("You have a "+grade+ "%, which is an A in the class!");
+} else if( grade <=89 && grade >= 85){
+    //print to console
+    console.log("You have a "+grade+ "%, which is a B+ in the class!");
 }
