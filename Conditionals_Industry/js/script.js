@@ -2,7 +2,7 @@
  Jacob Collins
  WPF Section 01
  Conditionals Industry
- 11/12/14
+ 11/13/14
  */
 
 //obtain user info on number of hours needed to complete site
@@ -11,6 +11,7 @@ var hoursNeeded = prompt("How many hours do you need to complete the client's we
 if(hoursNeeded == ""){
     //alert user no number was entered and prompt for number again
     alert("You didn't enter any numbers.");
+    //prompt for number of hours needed
     prompt("How many hours do you need to complete the client's website?");
 }else{
     //print to console
@@ -23,6 +24,7 @@ var numberOfEmployees = prompt("How many employees do you have working on the si
 if(numberOfEmployees == ""){
     //alert user no number was entered and prompt for number again
     alert("You didn't enter any numbers.");
+    //prompt for number of employees working
     prompt("How many employees do you have working on the site?");
 }else{
     //print to console
