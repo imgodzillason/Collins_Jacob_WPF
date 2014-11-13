@@ -17,6 +17,7 @@ if(breakfast == ""){
 }else{
     //print to console
     console.log("You had "+breakfast+ " calories at breakfast.");
+    //alert user to next information needed
     alert("We will now ask for your lunch calories.");
 }
 
@@ -32,6 +33,7 @@ if(lunch == ""){
 }else{
     //print to console
     console.log("You had "+lunch+ " calories at lunch.");
+    //alert user to next information needed
     alert("We will now ask for your dinner calories.");
 }
 
