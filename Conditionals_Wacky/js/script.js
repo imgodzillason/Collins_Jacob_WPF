@@ -48,7 +48,7 @@ if(bladedWeapons==""){
 var totalWeapons = (+guns) + (+bladedWeapons);
 
 //determine chances of survival
-if(zombies >= (totalWeapons / 2){
+if(zombies >= (totalWeapons / 2)){
     //print to console
     console.log("Fight for your life! Your chances are slim if you don't get away!")
 }else {
