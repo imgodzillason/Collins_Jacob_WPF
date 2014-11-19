@@ -15,3 +15,14 @@ function calcCircumference(){
 
 }
 calcCircumference();
+
+//Calculate the number of bee stings to kill an animal
+
+function beeStings(){
+    var victimWeight = prompt("What is the weight of the animal stung?");
+    stingKills = 8.666666667 * victimWeight;
+    console.log("It takes "+stingKills+ " bee stings to kill this animal.");
+    return stingKills;
+}
+
+beeStings();
