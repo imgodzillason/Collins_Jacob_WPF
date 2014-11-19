@@ -36,7 +36,7 @@ dogYears(age1);//arguments
 dogYears(5);
 */
 
-var total = calcArea(30, 20);
+/*var total = calcArea(30, 20);
 
 function calcArea(w, h){
     var area = w * h;
@@ -45,3 +45,20 @@ function calcArea(w, h){
 console.log(total);
 //procedures do not have the return action
 //functions have return action and return values
+    */
+
+
+/*var functionName = function(){
+    //code to run
+}
+
+functionName();
+*/
+//Anonymous function version
+
+var calcArea = function(width, height){//defining
+    var area = width * height;
+    return area;
+}
+
+calcArea(20, 30);//invoking
