@@ -4,7 +4,7 @@ Screencast- Functions
 11/18/14
  */
 
-var width = 5;
+/*var width = 5;
 
 function outptMsg(){
     console.log("Hello World");
@@ -18,3 +18,18 @@ function calcArea(){
 }
 console.log(width);
 calcArea();
+*/
+
+/*calcArea(30, 20);
+
+function calcArea(w, h){
+    var area = w * h;
+    console.log(area);
+}*/
+
+function dogYears(age){
+    var dogYears = age * 7;
+    console.log("Sparky is "+dogYears+ " years old.");
+}
+
+dogYears();
