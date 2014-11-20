@@ -29,12 +29,13 @@ while ((isNaN(budget) || budget ==="")){//check to make sure number is entered
 
 console.log("You have allotted $" +budget+ " to spend on tile.");//print out amount budgeted
 
-var finalPrice = function (){
-    totalCost = Math.round(squareFeet * amount);
-    console.log("The total amount of the tile will be $" + totalCost+ ".");
-    return totalCost;
+var finalPrice = function (){//set up anonymous function to calculate total cost of tile
+    totalCost = Math.round(squareFeet * amount);//calculate total cost of tile and round to nearest dollar
+    console.log("The total amount of the tile will be $" + totalCost+ ".");//print out total cost of tile
+    return totalCost;//return amount of total cost
 }
 
-finalPrice();
+finalPrice();//call function to print out total cost
 
-var canAfford = (finalPrice < budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.");
+//set up ternary to determine if user can afford to purchase tile
+var canAfford = (totalCost <= budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.");
