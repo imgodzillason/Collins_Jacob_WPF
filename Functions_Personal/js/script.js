@@ -7,25 +7,27 @@ Functions_Personal
 
 //set up variable requesting square feet
 var squareFeet = prompt("How many square feet is the room?");
-while((isNaN(squareFeet) || squareFeet === "")){
-    squareFeet = prompt("Please enter a number.");
+while((isNaN(squareFeet) || squareFeet === "")){ //check to make sure number is entered
+    squareFeet = prompt("Please enter a number."); //advise user to enter number
 }
 
-console.log("The room is "+squareFeet+ " square feet.");
+console.log("The room is "+squareFeet+ " square feet."); //print out number of square feet
 
+//set up variable requesting amount of tile
 var amount = prompt("How much is the tile you want to purchase per square foot?");
-while((isNaN(amount) || amount ==="")){
-    amount = prompt("Please enter a number");
+while((isNaN(amount) || amount ==="")){//check to make sure number is entered
+    amount = prompt("Please enter a number");//advise user to enter number
 }
 
-console.log("The amount you entered for your tile is $" +amount+ ".");
+console.log("The amount you entered for your tile is $" +amount+ ".");//print out amount of tile
 
+//set up variable requesting budget to purchase tile
 var budget = prompt("How much have you budgeted to spend on tile?");
-while ((isNaN(budget) || budget ==="")){
-    budget = prompt("Please enter an amount.");
+while ((isNaN(budget) || budget ==="")){//check to make sure number is entered
+    budget = prompt("Please enter an amount.");//advise user to enter number
 }
 
-console.log("You have allotted $" +budget+ " to spend on tile.");
+console.log("You have allotted $" +budget+ " to spend on tile.");//print out amount budgeted
 
 var finalPrice = function (){
     totalCost = Math.round(squareFeet * amount);
@@ -35,4 +37,4 @@ var finalPrice = function (){
 
 finalPrice();
 
-var canAfford = (finalPrice >= budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.")
+var canAfford = (finalPrice < budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.");
