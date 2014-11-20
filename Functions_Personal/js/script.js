@@ -32,3 +32,7 @@ var finalPrice = function (){
     console.log("The total amount of the tile will be $" + totalCost+ ".");
     return totalCost;
 }
+
+finalPrice();
+
+var canAfford = (finalPrice >= budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.")
