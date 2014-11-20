@@ -26,3 +26,9 @@ while ((isNaN(budget) || budget ==="")){
 }
 
 console.log("You have allotted $" +budget+ " to spend on tile.");
+
+var finalPrice = function (){
+    totalCost = Math.round(squareFeet * amount);
+    console.log("The total amount of the tile will be $" + totalCost+ ".");
+    return totalCost;
+}
