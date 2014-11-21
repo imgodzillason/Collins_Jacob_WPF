@@ -24,33 +24,33 @@ function planetaryAge(){
         var mercury = Math.round(ageInDays / 88);
         console.log("You are approximately " +mercury+ " years old on Mercury.");
     }
-   if(choosePlanet === "Venus"){
+   if(choosePlanet === "Venus" || choosePlanet === "venus"){
        var venus = Math.round(ageInDays / 224.7);
        console.log("You are approximately " +venus+ " years old on Venus");
    }
-    if (choosePlanet === "Earth"){
+    if (choosePlanet === "Earth" || choosePlanet === "earth"){
         console.log("You're the same age as you are now!");
     }
-    if (choosePlanet === "Mars"){
+    if (choosePlanet === "Mars" || choosePlanet === "mars"){
         var mars = Math.round( ageInDays /687);
         console.log("You are approximately " +mars+ " years old on Mars.");
     }
-    if (choosePlanet === "Jupiter"){
+    if (choosePlanet === "Jupiter" || choosePlanet === "jupiter"){
         var jupiter = Math.round(ageInDays / 4332);
         console.log("You are approximately " +jupiter+ " years old on Jupiter.");
     }
-    if (choosePlanet === "Saturn"){
+    if (choosePlanet === "Saturn" || choosePlanet === "saturn"){
         var saturn = Math.round(ageInDays / 10760);
         console.log("You are approximately " +saturn+ " years old on Saturn.");
     }
-    if (choosePlanet === "Uranus"){
+    if (choosePlanet === "Uranus" || choosePlanet === "uranus"){
         var uranus = Math.round(ageInDays / 30700);
         console.log("You are approximately " +uranus+ " years old on Uranus.");
     }
-    if (choosePlanet === "Neptune"){
+    if (choosePlanet === "Neptune" || choosePlanet === "neptune"){
         var neptune = Math.round(ageInDays / 60200);
         console.log("You are approximately " +neptune+ " years old on Neptune.");
-    }if (choosePlanet === "Pluto"){
+    }if (choosePlanet === "Pluto" || choosePlanet === "pluto"){
         var pluto = ageInDays / 90600;
         console.log("I'm glad you still consider it a planet! You'd be approximately " +pluto+ " years old on Pluto.");
 }
