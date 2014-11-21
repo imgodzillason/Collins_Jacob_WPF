@@ -39,4 +39,19 @@ function planetaryAge(){
         var jupiter = Math.round(ageInDays / 4332);
         console.log("You are approximately " +jupiter+ " years old on Jupiter.");
     }
+    if (choosePlanet === "Saturn"){
+        var saturn = Math.round(ageInDays / 10760);
+        console.log("You are approximately " +saturn+ " years old on Saturn.");
+    }
+    if (choosePlanet === "Uranus"){
+        var uranus = Math.round(ageInDays / 30700);
+        console.log("You are approximately " +uranus+ " years old on Uranus.");
+    }
+    if (choosePlanet === "Neptune"){
+        var neptune = Math.round(ageInDays / 60200);
+        console.log("You are approximately " +neptune+ " years old on Neptune.");
+    }
+}else {
+    var pluto = Math.round(ageInDays / 90600);
+    console.log("I'm glad you still consider it a planet! You'd be approximately " +pluto+ " years old on Pluto.");
 }
