@@ -4,21 +4,21 @@ WPF- Section 1
 Functions_Wacky
 11/20/14
  */
-
+//prompt for user age
 var age = prompt("How old are you?");
-while(isNaN(age) || age ===""){
-    age = prompt("Please enter a number.");
+while(isNaN(age) || age ===""){//verify user entered number
+    age = prompt("Please enter a number.");//request user enter number
 }
 
-console.log("Your age is " +age+ ".");
+console.log("Your age is " +age+ ".");//print user age
 
-var ageInDays = age * 365;
-console.log("You are " +ageInDays+ " days old.");
+var ageInDays = age * 365;//find number of days old user is
+console.log("You are " +ageInDays+ " days old.");//print user age in days
 
-function planetaryAge(){
-    var choosePlanet = prompt("Select a planet and find out your age on that planet!");
-    while(choosePlanet === ""){
-        choosePlanet = prompt("Please enter a planet name.");
+function planetaryAge(){//create function to find user age on other planets
+    var choosePlanet = prompt("Select a planet and find out your age on that planet!");//prompt user to select planet
+    while(choosePlanet === ""){//verify user entered information
+        choosePlanet = prompt("Please enter a planet name.");//if user did not, prompt to enter information
     }
     if (choosePlanet === "Mercury" || choosePlanet === "mercury"){
         var mercury = Math.round(ageInDays / 88);
