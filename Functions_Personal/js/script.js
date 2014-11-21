@@ -38,5 +38,3 @@ var finalPrice = function (squareFeet, amount, budget){//set up anonymous functi
 };
 
 finalPrice();//call function to print out total cost
-
-//var canAfford = (totalCost <= budget) ? console.log("You can afford to purchase the tile!") : console.log("You cannot afford to purchase the tile.");
