@@ -44,11 +44,11 @@ function planetaryAge(){
         console.log("You are approximately " +saturn+ " years old on Saturn.");
     }
     if (choosePlanet === "Uranus" || choosePlanet === "uranus"){
-        var uranus = Math.round(ageInDays / 30700);
+        var uranus = ageInDays / 30700;
         console.log("You are approximately " +uranus+ " years old on Uranus.");
     }
     if (choosePlanet === "Neptune" || choosePlanet === "neptune"){
-        var neptune = Math.round(ageInDays / 60200);
+        var neptune = ageInDays / 60200;
         console.log("You are approximately " +neptune+ " years old on Neptune.");
     }if (choosePlanet === "Pluto" || choosePlanet === "pluto"){
         var pluto = ageInDays / 90600;
