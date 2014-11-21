@@ -20,7 +20,7 @@ function planetaryAge(){
     while(choosePlanet === ""){
         choosePlanet = prompt("Please enter a planet name.");
     }
-    if (choosePlanet === "Mercury"){
+    if (choosePlanet === "Mercury" || choosePlanet === "mercury"){
         var mercury = Math.round(ageInDays / 88);
         console.log("You are approximately " +mercury+ " years old on Mercury.");
     }
@@ -50,8 +50,10 @@ function planetaryAge(){
     if (choosePlanet === "Neptune"){
         var neptune = Math.round(ageInDays / 60200);
         console.log("You are approximately " +neptune+ " years old on Neptune.");
-    }
-}else {
-    var pluto = Math.round(ageInDays / 90600);
-    console.log("I'm glad you still consider it a planet! You'd be approximately " +pluto+ " years old on Pluto.");
+    }if (choosePlanet === "Pluto"){
+        var pluto = ageInDays / 90600;
+        console.log("I'm glad you still consider it a planet! You'd be approximately " +pluto+ " years old on Pluto.");
 }
+}
+
+planetaryAge();
